@@ -1,6 +1,6 @@
 
 
-
+# 1
 def fatorial(n):
     if n == 0:
         return 1
@@ -8,6 +8,7 @@ def fatorial(n):
     return n * fatorial(n-1)
 
 
+# 2
 def somatorio(n):
     if n == 1:
         return 1
@@ -15,6 +16,7 @@ def somatorio(n):
     return n + somatorio(n-1)
 
 
+# 3
 def fibo(n):
     if n <= 1:
         return n
@@ -22,6 +24,7 @@ def fibo(n):
     return fibo(n-1) + fibo(n-2)
 
 
+# 4
 def soma(k, j):
     if j == k:
         return k
@@ -29,6 +32,7 @@ def soma(k, j):
     return k + soma(k + 1, j)
 
 
+# 5
 def palindromo(s):
     if len(s) == 0:
         return True
@@ -39,6 +43,7 @@ def palindromo(s):
     return s[0] == s[-1] and palindromo(s[1:-1])
 
 
+# 6
 def binario(n):
     if n == 0:
         return '0'
@@ -48,6 +53,7 @@ def binario(n):
     return binario(n//2) + str(n%2)
 
 
+# 7
 def somatorio_array(array):
     if len(array) == 1:
         return array[0]
@@ -55,6 +61,7 @@ def somatorio_array(array):
     return array[0] + somatorio_array(array[1:])
 
 
+# 8
 def maior_lista(array):
     if len(array) == 1:
         return array[0]
@@ -64,6 +71,7 @@ def maior_lista(array):
     return array[0] if array[0] > a else a
 
 
+# 10
 def dentro(string, substring):
     if len(substring) == 0:
         return False
@@ -77,6 +85,7 @@ def dentro(string, substring):
     return  dentro(string[1:], substring)
 
 
+# 11
 def quantidade_inteiros(n):
     if n < 1:
         return 0
